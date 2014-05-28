@@ -18,6 +18,11 @@ $(document).ready(function() {
         } else {
           // Success calback
 
+          widget.getClient().getDelegationToken('IckaP4QRfGSRGuVZfP9VJBUdlXtgcS4o', token, 
+            function(err, thirdPartyApiToken) {
+              localStorage.setItem('thirdPartyApiToken', thirdPartyApiToken.id_token);
+            });
+
           // Save the JWT token.
           localStorage.setItem('userToken', token);
 
