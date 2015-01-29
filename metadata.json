@@ -1,0 +1,10 @@
+{
+  "name": "Auth0 + jQuery + Third Party API Sample",
+  "type": "sample",
+  "tags": [
+    "web",
+    "jquery",
+    "javascript",
+    "api"
+  ]
+}
